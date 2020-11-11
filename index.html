@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Clipboard landing page</title>
+  <link rel="stylesheet" type="text/css" href="css/tailwind.min.css">
+  <style type="text/css">
+    @font-face {
+      font-family: BaiJamjuree;
+      src: url(fonts/BaiJamjuree-Regular.ttf);
+    }
+
+    body {
+      font-family: BaiJamjuree;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <!-- Header Start -->
+    <header>
+      <div class="flex flex-col justify-center items-center mb-10">
+        <!-- Logo Start -->
+        <div class="hidden md:block flex justify-center items-center opacity-50 w-full"
+         style="background: url('images/bg-header-desktop.png') no-repeat; background-size: cover;">
+          <div class="flex justify-center items-center pt-10 mt-10 mb-5">
+            <img class="opacity-100 w-16" src="images/logo.svg">
+          </div>
+        </div>
+        <div class="md:hidden flex justify-center items-center opacity-50 w-full"
+         style="background: url('images/bg-header-mobile.png') no-repeat; background-size: cover;">
+          <div class="flex justify-center items-center pt-10 mt-10 mb-5">
+            <img class="opacity-100 w-16" src="images/logo.svg">
+          </div>
+        </div>
+        <!-- Logo Stop -->
+        <div class="flex-col justify-center items-center px-5 my-4">
+          <div class="flex justify-center items-center">
+            <h1 class="sm:w-3/3 md:w-2/3 text-3xl text-center text-gray-800 font-semibold px-5">
+              A history of everything you copy
+            </h1>
+          </div>
+          <div class="flex justify-center items-center mt-3">
+            <p class="sm:w-3/3 md:w-2/3 text-base text-center text-gray-500 font-normal px-5">
+              Clipboard allows you to track and organize everything you
+              copy. Instantly access your clipboard on all your devices.
+            </p>
+          </div>
+        </div>
+        <!-- Button Start -->
+        <div class="flex flex-col md:flex-row justify-between items-center my-4">
+          <div class=""><button class="bg-green-500 text-gray-100 font-semibold border-b-2 border-green-700 rounded-full px-16 py-3 md:px-8 my-2 mx-2">Download for iOS</button></div>
+          <div class=""><button class="bg-blue-700 text-gray-100 font-semibold border-b-2 border-blue-900 rounded-full px-16 py-3 md:px-8 my-2 mx-2">Download for Mac</button></div>
+        </div>
+        <!-- Button Stop -->
+      </div>
+    </header>
+  <!-- Header Stop -->
+
+  <!-- Main Content Start -->
+    <main>
+      <!-- First Content Start -->
+        <div class="flex flex-col justify-center items-center w-full sm:my-10 sm:my-3">
+          <div class="flex flex-col sm:my-10 sm:my-5">
+            <div class="flex justify-center items-center my-3">
+              <h1 class="text-gray-800 text-2xl text-center font-semibold px-5 sm:w-3/3 md:w-2/4">
+                Keep track of your snippets
+              </h1>
+            </div>
+            <div class="flex justify-center items-center my-3 ">
+              <p class="text-gray-500 text-base text-center font-normal sm:w-3/3 md:w-3/4 px-5">
+                Clipboard instantly stores any item you copy in the cloud,
+                meaning you can access your snippets immediately on all your
+                devices. Our Mac and iOS apps will help you organize everything.
+              </p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between my-3">
+              <div class="flex justify-center items-center mx-10 my-6 md:w-1/2"><img src="images/image-computer.png"></div>
+              <div class="mx-10 my-6 md:w-1/2">
+                <div>
+                    <div class="flex justify-center md:justify-start items-center my-3">
+                      <h1 class="text-gray-800 text-2xl text-center md:text-left font-semibold sm:w-3/3 md:w-4/4 px-5">
+                        Quick Search
+                      </h1>
+                    </div>
+                    <div class="flex justify-center md:justify-start items-center my-3 ">
+                      <p class="text-gray-500 text-base text-center md:text-left font-normal sm:w-3/3 md:w-4/4 px-5">
+                        Easily search your snippets by content, category, web address, application, and more.
+                      </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center md:justify-start items-center my-3">
+                      <h1 class="text-gray-800 text-2xl text-center md:text-left font-semibold sm:w-3/3 md:w-4/4 px-5">
+                        iCloud Sync
+                      </h1>
+                    </div>
+                    <div class="flex justify-center md:justify-start items-center my-3">
+                      <p class="text-gray-500 text-base text-center md:text-left font-normal sm:w-3/3 md:w-4/4 px-5 ">
+                        Instantly saves and syncs snippets across all your devices.
+                      </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-center md:justify-start items-center my-3">
+                      <h1 class="text-gray-800 text-2xl text-center md:text-left font-semibold sm:w-3/3 md:w-4/4 px-5">
+                        Complete History
+                      </h1>
+                    </div>
+                    <div class="flex justify-center md:justify-start items-center my-3 ">
+                      <p class="text-gray-500 text-base text-center md:text-left font-normal sm:w-3/3 md:w-4/4 px-5 ">
+                        Retrieve any snippets from the first moment you started using the app.
+                      </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- First Content Stop-->
+
+      <!-- Second Content Start -->
+        <div class="flex flex-col justify-center items-center w-full sm:my-10 md:my-3">
+          <div class="flex flex-col sm:my-10 md:my-5">
+            <div class="flex justify-center items-center my-3">
+              <h1 class="text-gray-800 text-2xl text-center font-semibold sm:w-3/4 md:w-2/4 px-5">
+                Access Clipboard anywhere
+              </h1>
+            </div>
+            <div class="flex justify-center items-center my-3">
+              <p class="text-gray-500 text-base text-center font-normal w-3/4 md:w-3/4 px-5">
+                Whether you’re on the go, or at your computer, you can access all your Clipboard
+                snippets in a few simple clicks.
+              </p>
+            </div>
+            <div class="flex justify-center my-3">
+              <div class="mx-10 my-6 md:w-2/3"><img src="images/image-devices.png"></div>
+            </div>
+          </div>
+        </div>
+      <!-- Second Content Stop-->
+
+      <!-- Third Content Start -->
+        <div class="flex flex-col justify-center items-center sm:my-10 md:my-3">
+          <div class="flex flex-col sm:my-10 md:my-5">
+            <div class="flex justify-center items-center my-3">
+              <h1 class="text-gray-800 text-2xl text-center font-semibold sm:w-3/3 md:w-2/4 px-5">
+                Supercharge your workflow
+              </h1>
+            </div>
+            <div class="flex justify-center items-center my-3 ">
+              <p class="text-gray-500 text-base text-center font-normal sm:w-3/3 md:w-3/4 px-5">
+                We’ve got the tools to boost your productivity.
+              </p>
+            </div>
+            <div class="flex flex-col items-center md:flex-row md:items-start justify-center my-3 px-12">
+              <div class="w-3/4 md:w-1/3 mx-10 my-2 py-2">
+                <div class="flex justify-center"><img src="images/icon-blacklist.svg"></div>
+                <div class="flex justify-center my-3">
+                  <h1 class="text-gray-800 text-lg text-center font-semibold px-5 sm:w-3/3 md:w-full">
+                    Create blacklists
+                  </h1>
+                </div>
+                <div class="flex justify-center my-3 ">
+                  <p class="text-gray-500 text-sm text-center font-normal px-5 sm:w-3/3 md:w-full ">
+                    Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
+                  </p>
+                </div>
+              </div>
+              <div class="w-3/4 md:w-1/3 my-2 py-2 mx-10">
+                <div class="flex justify-center"><img src="images/icon-text.svg"></div>
+                <div class="flex justify-center my-3">
+                  <h1 class="text-gray-800 text-lg text-center font-semibold px-5 sm:w-3/3 md:w-full">
+                    Plain text snippets
+                  </h1>
+                </div>
+                <div class="flex justify-center my-3 ">
+                  <p class="text-gray-500 text-sm text-center font-normal px-5 sm:w-3/3 md:w-full ">
+                    Remove unwanted formatting from copied text for a consistent look.
+                  </p>
+                </div>
+              </div>
+              <div class="w-3/4 md:w-1/3 my-2 py-2 mx-10">
+                <div class="flex justify-center"><img src="images/icon-preview.svg"></div>
+                <div class="flex justify-center my-3">
+                  <h1 class="text-gray-800 text-lg text-center font-semibold px-5 sm:w-3/3 md:w-full">
+                    Sneak preview
+                  </h1>
+                </div>
+                <div class="flex justify-center my-3 ">
+                  <p class="text-gray-500 text-sm text-center font-normal px-5 sm:w-3/3 md:w-full ">
+                    Quick preview of all snippets on your Clipboard for easy access.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col items-center md:flex-row md:justify-around my-6 px-10 py-5">
+                <div class="flex justify-center my-8 mx-2"><img src="images/logo-google.png"></div>
+                <div class="flex justify-center my-8 mx-2"><img src="images/logo-ibm.png"></div>
+                <div class="flex justify-center my-8 mx-2"><img src="images/logo-microsoft.png"></div>
+                <div class="flex justify-center my-8 mx-2"><img src="images/logo-hp.png"></div>
+                <div class="flex justify-center my-8 mx-2"><img src="images/logo-vector-graphics.png"></div>
+            </div>
+          </div>
+        </div>
+      <!-- Third Content Stop-->
+
+      <!-- Fourth Content Start -->
+        <div class="mb-24">
+          <div class="px-5 my-4 flex-col justify-center items-center">
+            <div class="flex justify-center items-center">
+              <h1 class="text-gray-800 text-2xl text-center font-semibold px-5 sm:w-3/3 md:w-2/3">
+                Clipboard for iOS and Mac OS
+              </h1>
+            </div>
+            <div class="flex justify-center items-center mt-3 ">
+              <p class="text-gray-500 text-base text-center font-normal px-5 sm:w-3/3 md:w-2/3 ">
+                Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+                and you’re ready to start adding to your clipboard.
+              </p>
+            </div>
+          </div>
+          <!-- Button Start -->
+            <div class="flex flex-col md:flex-row lg:flex-row justify-center items-center my-4">
+              <div class=""><button class="bg-green-500 border-b-2 border-green-700 font-semibold text-gray-100 rounded-full mx-2 my-2 px-16 py-3 md:px-8">Download for iOS</button></div>
+              <div class=""><button class="bg-blue-700 border-b-2 border-blue-900 font-semibold text-gray-100 rounded-full mx-2 my-2 px-16 py-3 md:px-8">Download for Mac</button></div>
+            </div>
+          <!-- Button Stop -->
+        </div>
+      <!-- Fourth Content Stop -->
+    </main>
+  <!-- Main Content Stop -->
+
+  <!-- Footer Start -->
+    <footer>
+      <div class="bg-gray-300 flex flex-col justify-center md:flex-row md:justify-around items-center py-10 md:py-0">
+        <div class="flex justify-center items-center w-16 my-4 py-4"><img src="images/logo.svg"></div>
+        <div class="flex flex-wrap w-2/4 mx-2 my-1">
+          <div class="w-full md:w-1/3 md:h-1/2 md:my-1"><p class="text-gray-700 text-center md:text-left text-lg md:text-base font-medium">FAQs</p></div>
+          <div class="w-full md:w-1/3 md:h-1/2 md:my-1"><p class="text-gray-700 text-center md:text-left text-lg md:text-base font-medium">Privacy Policy</p></div>
+          <div class="w-full md:w-1/3 md:h-1/2 md:my-1"><p class="text-gray-700 text-center md:text-left text-lg md:text-base font-medium">Install Guide</p></div>
+          <div class="w-full md:w-1/3 md:h-1/2 md:my-1"><p class="text-gray-700 text-center md:text-left text-lg md:text-base font-medium">Contact Us</p></div>
+          <div class="w-full md:w-1/3 md:h-1/2 md:my-1"><p class="text-gray-700 text-center md:text-left text-lg md:text-base font-medium">Press Kit</p></div>
+        </div>
+        <div class="flex justify-between items-center my-4 py-4">
+          <div class="mx-6"><img src="images/icon-facebook.svg"></div>
+          <div class="mx-6"><img src="images/icon-twitter.svg"></div>
+          <div class="mx-6"><img src="images/icon-instagram.svg"></div>
+        </div>
+      </div>
+      <div class="bg-gray-500 flex flex-col md:flex-row justify-center md:justify-around items-center text-gray-800 font-medium py-5 md:py-0">
+        <div>Challenge by <a class="font-italic text-gray-100" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></div>
+        <div>Coded by <a class="font-italic text-gray-100">KOLADE Emmanuel</a></div>
+        <div class="text-center">Contact at <p class="font-italic text-gray-100">emmanuel.kolade1@gmail.com</p></div>
+      </div>
+    </footer>
+  <!-- Footer End -->
+</body>
+</html>
