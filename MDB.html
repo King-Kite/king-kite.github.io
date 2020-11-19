@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDB TailWindCSS</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+</head>
+<body class="font-serif bg-gray-300">
+    <header>
+        <!-- Navigation Start -->
+        <nav class="bg-white fixed w-full">
+            <div class="flex justify-between pb-3 lg:mx-10">
+                <div class="flex mt-3 mx-5 sm:ml-10 md:ml-20 lg:mt-5 lg:mx-8">
+                    <h1 class="font-medium text-xl text-blue-600 mx-4">MDB</h1>
+                    <ul class="flex hidden lg:inline-flex">
+                        <li class="font-medium text-base text-gray-600 mx-4">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="font-medium text-base text-gray-600 mx-4">
+                            <a href="#">About MDB</a>
+                        </li>
+                        <li class="font-medium text-base text-gray-600 mx-4">
+                            <a href="#">Free Download</a>
+                        </li>
+                        <li class="font-medium text-base text-gray-600 mx-4">
+                            <a href="#">Free Tutorials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex mt-3 mx-10 sm:mr-15 md:mr-20 lg:mx-10">
+                    <button class="mt-2 lg:hidden">
+                        <img src="images/ham.svg" alt="ham">
+                    </button>
+
+                    <button class="hidden lg:block font-medium text-lg text-gray-600 mx-4">
+                        <span class="bg-red-600 font-semibold rounded text-white mx-3 py-0 px-1">1</span> Cart
+                    </button>
+
+                    <button class="hidden lg:block border-2 border-gray-300 rounded text-md py-2 px-6">
+                        MDB GitHub
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Navigation End -->
+
+        <!-- Jumbotron Start -->
+        <div class="bg-gray-700 flex flex-col justify-center items-center lg:pt-2 md:pt-6 pt-12 mb-4">
+            <div class="flex flex-col justify-center items-center mb-24 mt-10 pt-6 pb-10 lg:mt-0 md:mt-5 lg:mb-3 md:mb-12 sm:pb-0">
+                <div class="pt-5 lg:mt-2 md:mt-5 mt-10 mb-6 mx-6">
+                    <h1 class="text-5xl text-center text-gray-100 leading-tight">
+                        Learn Tailwind Now with MDB
+                    </h1>
+                </div>
+                <div class="mb-5">
+                    <p class="font-semibold text-gray-100 text-lg">
+                        Best & free guide of responsive web design
+                    </p>
+                </div>
+
+                <div class="hidden md:block mb-5 mx-5">
+                    <p class="font-semibold text-gray-100 text-center text-md">
+                        The most comprehensive tutorial for the Tailwind. Loved by over 500 000 users. Video and written versions available. Create your own, stunning website.
+                    </p>
+                </div>
+
+                <div class="mb-10 mt-2">
+                    <button class="border-2 border-gray-100 font-semibold text-gray-100 tracking-wider py-4 px-12">
+                        START FREE TUTORIAL
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Jumbotron End -->
+    </header>
+
+    <main>
+        <nav>
+            <div class="flex justify-between bg-gray-500 sm:mx-20 xl:mx-10 lg:mx-10 mx-4 mb-12 pb-3">
+                <div class="flex mt-4 mx-5">
+                    <h1 class="font-medium text-2xl text-gray-100">Categories:</h1>
+                    <ul class="flex hidden lg:inline-flex mt-1">
+                        <li class="font-medium text-lg text-gray-100 mx-4">
+                            <a href="#">All</a>
+                        </li>
+                        <li class="font-medium text-lg text-gray-100 mx-4">
+                            <a href="#">Shirts</a>
+                        </li>
+                        <li class="font-medium text-lg text-gray-100 mx-4">
+                            <a href="#">Sport wears</a>
+                        </li>
+                        <li class="font-medium text-lg text-gray-100 mx-4">
+                            <a href="#">Outwears</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:hidden mt-6 mx-10">
+                    <button class=""><img src="images/ham.svg" alt="ham"></button>
+                </div>
+                <div class="hidden lg:block bg-gray-500 w-1/4 mt-2 mx-4">
+                    <input class="border-b-2 border-gray-100 focus:border-blue-500 focus:font-medium bg-gray-500 text-gray-100 h-full w-full text-xl font-medium" type="search" placeholder="Search" value="Search">
+                </div>
+            </div>
+        </nav>
+
+        <div class="flex flex-col justify-center">
+            <div class="flex flex-col lg:mb-2 lg:flex-row xl:mx-10 lg:mx-10">
+                <div class="flex flex-col lg:mr-4 lg:w-1/2 md:flex-row md:justify-between md:items-center">
+                    <div class="bg-white flex flex-col lg:my-0 lg:ml-0 md:w-1/2 md:mt-2 md:mr-4 md:ml-20 sm:mx-20 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Shirt</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Denim shirt</h4>
+                            <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button>
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">120$</h1>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col lg:my-0 lg:mr-0 md:w-1/2 md:mr-20 md:ml-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Sport wear</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Sweatshirt</h4>
+                            <!-- <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button> -->
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">139$</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:ml-4 lg:w-1/2 md:flex-row md:justify-between md:items-center">
+                    <div class="bg-white flex flex-col lg:my-0 lg:ml-0 md:w-1/2 md:mt-2 md:mr-4 md:ml-20 md:mx-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Sport wear</h4>
+                        </div>
+                        <div class="flex lg:flex-col justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Grey blouse</h4>
+                            <button class="bg-blue-600 border rounded-full text-lg text-white font-bold mx-2 px-2">bestseller</button>
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">99$</h1>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col lg:my-0 lg:mr-0 md:w-1/2 md:mr-20 md:ml-4 md:mx-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Outwear</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Black jacket</h4>
+                            <!-- <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button> -->
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">219$</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col lg:mt-2 lg:flex-row xl:mx-10 lg:mx-10">
+                <div class="flex flex-col lg:mr-4 lg:w-1/2 md:flex-row md:justify-between md:items-center">
+                    <div class="bg-white flex flex-col lg:my-0 lg:ml-0 md:w-1/2 md:mt-2 md:mr-4 md:ml-20 sm:mx-20 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Shirt</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Denim shirt</h4>
+                            <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button>
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">120$</h1>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col lg:my-0 lg:mr-0 md:w-1/2 md:mr-20 md:ml-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Sport wear</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Sweatshirt</h4>
+                            <!-- <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button> -->
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">139$</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:ml-4 lg:w-1/2 md:flex-row md:justify-between md:items-center">
+                    <div class="bg-white flex flex-col lg:my-0 lg:ml-0 md:w-1/2 md:mt-2 md:mr-4 md:ml-20 md:mx-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Sport wear</h4>
+                        </div>
+                        <div class="flex lg:flex-col justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Grey blouse</h4>
+                            <button class="bg-blue-600 border rounded-full text-lg text-white font-bold mx-2 px-2">bestseller</button>
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">99$</h1>
+                        </div>
+                    </div>
+                    <div class="bg-white flex flex-col lg:my-0 lg:mr-0 md:w-1/2 md:mr-20 md:ml-4 md:mx-4 sm:mx-20 mt-2 mb-5 mx-4 border-3 rounded shadow-2xl">
+                        <div class="flex justify-center items-center mt-4">
+                            <h4 class="text-xl text-gray-600">Outwear</h4>
+                        </div>
+                        <div class="flex justify-center items-center mt-2">
+                            <h4 class="text-xl text-gray-900 font-black">Black jacket</h4>
+                            <!-- <button class="bg-red-600 border rounded-full text-lg text-white font-bold mx-2 px-2">NEW</button> -->
+                        </div>
+                        <div class="flex justify-center items-center mb-6">
+                            <h1 class="text-3xl text-blue-500 font-semibold">219$</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Pagination Start-->
+        <div class="py-2 mt-5 mx-4 mb-5">
+            <nav class="block">
+              <ul class="flex pl-0 justify-center rounded list-none flex-wrap">
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    <i class="fas fa-chevron-left -ml-px"></i>
+                    <i class="fas fa-chevron-left -ml-px"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    1
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    2
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    3
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    4
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    5
+                  </a>
+                </li>
+                <li>
+                  <a href="#pablo" class="first:ml-0 text-xs font-semibold flex w-8 h-8 mx-1 p-0 rounded-full items-center justify-center leading-tight relative border border-solid border-blue-500 bg-white text-blue-500">
+                    <i class="fas fa-chevron-right -mr-px"></i>
+                    <i class="fas fa-chevron-right -mr-px"></i>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        <!--Pagination End-->
+    </main>
+
+    <footer>
+        <div class="mt-10 bg-gray-600">
+            <div class="flex mx-4 justify-center mb-8 pt-10">
+                <div class="mx-4">
+                    <button class="border-2 border-gray-100 text-sm text-gray-100 py-3 px-8">
+                        DOWNLOAD MOB
+                    </button>
+                </div>
+                <div class="">
+                    <button class="border-2 border-gray-100 text-sm text-gray-100 py-3 px-3">
+                        START FREE TUTORIAL
+                    </button>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="h-16">
+            </div>
+
+            <div class="bg-gray-700 h-16 ">
+                <div class="flex justify-center pt-5">
+                    <p class="text-lg text-gray-500">&copy;2019 Copyright: <a class="text-xl text-white" href="#">MDBootstrap.com</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
